@@ -6,7 +6,7 @@ const pwcopy  = document.querySelector('.copy'); //コピー
 pwcreate.addEventListener('click', () => {
    
     const pwlist =  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%&*-_+=';
-    let password = '#'; //シャープが必ず文頭に含まれる
+    let password = ''; //シャープが必ず文頭に含まれる
 
     for (let i = 0; i < 6; i++) { // 6文字のパスワード
     const randomIndex = Math.floor(Math.random() * pwlist.length);
@@ -23,3 +23,4 @@ pwcopy.addEventListener('click', () => {
     navigator.clipboard.writeText(copyDo);
     window.alert('コピーしました!');
 })
+
