@@ -1,0 +1,30 @@
+html {
+    font-size: 16px;
+    background-color: azure;
+}
+
+/* タイトル部分を中央寄せ */
+.inputpass {
+    margin-left: 480px;
+    color: #78716c;
+}
+
+/* ボタン部分を中央寄せ */
+#button-line {
+    margin-left: 590px;
+}
+
+/* 結果表示枠を中心寄せ */
+#result-line {
+    margin-left: 560px;
+    margin-top: 10px;
+}
+
+.create {
+    margin-right: 10px;
+}
+
+footer {
+    margin-left: 570px;
+    margin-top: 60px;
+}
